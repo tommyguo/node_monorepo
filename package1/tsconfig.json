@@ -3,5 +3,9 @@
     "outDir": "dist"
   },
   "include": ["src/**/*.ts"],
-  "extends": "../tsconfig.base.json"
+  "extends": "../tsconfig.base.json",
+  "tsc-alias": {
+    "resolveFullPaths": true,
+    "verbose": false
+  }
 }
