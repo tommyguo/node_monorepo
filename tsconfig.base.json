@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@package1/*": ["./package1/src/*"],
+      "@package2/*": ["./package2/src/*"],
+      "@package3/*": ["./package3/src/*"],
+    }
+  },
+  "exclude": ["node_modules", ".eslintrc.js"]
+}
